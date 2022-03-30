@@ -64,8 +64,8 @@ router.delete("/productlist/:id", async (req, res) => {
   }
 });
 
-router.get("/", async (req, res) => {
-  res.send("Hello there!!");
-});
+// router.get("/", async (req, res) => {
+//   res.send("Hello there!!");
+// });
 
 module.exports = router;
